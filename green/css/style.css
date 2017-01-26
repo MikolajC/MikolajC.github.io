@@ -1,0 +1,311 @@
+body
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	line-height:2;
+}
+/*klasy*/
+.zero
+{
+	font-size:50px;
+	font-weight:700;
+}
+.box
+{
+	text-align:center;
+	max-width:70%;
+	height:auto;
+	border:3px solid #2b2c2d;
+	margin:0 auto;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:25px;
+	color:#000;
+	overflow:hidden;
+}
+.logo
+{
+	text-align:center;	
+	/* position:relative; */
+	/* top:60px; */
+}
+.green
+{
+	color:#00ab66;
+}
+.afterLogo
+{
+	text-align:center;
+	/* position:relative;
+	top:50px; */
+	
+}
+.afterLogo h1
+{
+	font-size:46px;
+	font-weight:700;
+}
+.border
+{
+	background:url('../images/border.png');
+	height:13px;
+	width:78px;
+	display:inline-block;
+	margin:0 auto;
+}
+.lnr
+{
+	font-size:70px;
+	padding-bottom:10px;
+	transition:color 0.5s;
+	-webkit-transition:color 0.5s;
+	-moz-transition:color 0.5s;
+}
+.lnr:hover
+{
+	color:#00ab66;
+}
+.galleryImage
+{
+	float:left;
+	width:33.3%;
+	height:auto;
+}
+.galleryImage img
+{
+	max-width:100%;
+	height:auto;
+}
+#morePadding
+{
+	padding-top:40px;
+}
+/*Sekcje*/
+
+/*---TOP-STARTS---*/
+#topSection
+{
+	background-image:url('../images/tlo6.jpeg');
+	background-size:cover;
+	padding-bottom:100px;
+}
+#topSection p
+{
+/* position:relative;
+top:45px; */
+text-align:center;	
+}
+#topSection p
+{
+	font-size:18px;
+	font-weight:lighter;
+}
+
+#counter
+{
+	/* position:relative;
+	top:100px; */
+	text-align:center;
+}
+/*---TOP-ENDS---*/
+
+/*MIDDLE-STARTS---*/
+#middleSection
+{
+	text-align:center;
+	font-size:16px;
+}
+#middleSection .col-md-6
+{
+	padding-top:20px;
+	line-height:3;
+	text-align:center;
+}
+#middleSection h2
+{
+	font-size:40px;
+	font-weight:600;
+}
+/*---MIDDLE-ENDS---*/
+
+/*---BOAT-STARTS---*/
+#boatSection h2
+{
+	text-align:left;
+	font-weight:600;
+}
+#boatSection .box
+{
+	font-weight:600;
+}
+#boatSection p
+{
+	text-align:left;
+}
+#boatSection
+{
+	background-image:url('../images/boat2.png');
+	background-size:cover;
+	text-align:center;
+	margin-bottom:50px;
+	padding-bottom:30px;
+}
+#boatSection a
+{
+	text-decoration:none;
+	color:#000;
+}
+#boatSection .box a
+{
+	transition:color 0.7s;
+	-webkit-transition:color 0.7s;
+	-moz-transition:color 0.7s;
+}
+#boatSection .box
+{
+	transition:border-color 0.7s;
+	-webkit-transition:border-color 0.7s;
+	-moz-transition:border-color 0.7s;
+
+	
+}
+#boatSection .box:hover
+{
+	border-color:#00ab66;
+	cursor:pointer;
+}
+#boatSection a:hover
+{
+	color:#00ab66;
+}
+#boatSection .row
+{
+	padding:40px 0 40px 0;
+}
+/*---BOAT-ENDS---*/
+
+/*---KNOW-MORE-STARTS---*/
+#knowMoreSection
+{
+	text-align:center;
+}
+#knowMoreSection h2
+{
+	font-size:40px;
+	font-weight:600;
+}
+#knowMoreSection img
+{
+	margin:0 auto;
+	max-width:100%;
+	height:auto;
+}
+
+/*--KNOW-MORE-ENDS---*/
+
+/*---GALERY-STARTS---*/
+#gallery
+{
+	margin:30px auto;
+	padding:50px 0 300px 0;
+	background-color:#f0f0f0;
+	width:100%;
+	height:auto;
+}
+/*---GALERY-ENDS---*/
+
+/*---UPDATES-STARTS---*/
+#update
+{
+	background-image:url('../images/hand.jpg');
+	background-size:cover;
+	padding:60px 0 60px 0;
+	margin-bottom:50px;
+}
+#update h2
+{
+	font-weight:600;
+	text-align:left;
+}
+#update p
+{
+	text-align:left;
+} 
+#updateInput
+{
+	width:60%;
+	border:3px solid #2b2c2d;
+	background-color:transparent;
+	color:#000;
+	text-align:center;
+}
+#updateButton
+{
+	width:40%;
+	height:auto;
+	border:3px solid #2b2c2d;
+	background-color:transparent;
+	text-align:center;
+	font-size:12px;
+	font-weight:600;
+	-webkit-transition:color 0.7s;
+	-moz-transition:color 0.7s;
+	-webkit-transition:border-color 0.1s;
+	-moz-transition:border-color 0.1s;
+	-webkit-transition:background-color 0.7s;
+	-moz-transition:background-color 0.7s;
+	transition:color 0.7s;
+	transition:border-color 0.1s;
+	transition:background-color 0.7s;
+	
+}
+#updateButton:hover
+{
+	border-color:#00ab66;
+	color:#fff;
+	background-color:#00ab66;;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+  font-size:12px;
+  font-weight:600;
+/*---UPDATES-ENDS---*/
+}
+:-ms-input-placeholder{/* IE 10+ */
+color: #000;
+  font-size:12px;
+  font-weight:600;
+}
+
+
+footer
+{
+	text-align:center;
+}
+
+
+#ourLogo
+{
+	margin:0 auto;
+	height:240px;
+	width:auto;
+	display:block;
+}
+#tableImage img
+{
+	max-width:100%;
+	height:auto;
+}
+
+/* RWD */
+@media (max-width: 992px)
+{
+	#gallery{padding-bottom:250px;}
+}
+@media (max-width: 768px)
+{
+	#gallery{display:none;}
+}
+
+
+

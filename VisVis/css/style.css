@@ -1,0 +1,109 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  font-family: 'Slabo 27px', serif;
+  font-size:18px;
+}
+.transparent{
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.95);
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
+	border-bottom:none;
+}
+#navbar a{
+	font-size:17px;
+}
+.jumbotron{
+	background-image:url('../images/bread2.jpg');
+	height:750px;
+	margin-bottom:0;
+	font-family:font-family: 'Slabo 27px', serif;
+}
+.jumbotron .container h1,p{
+	text-align:center;
+	color:#FFFFCC;
+}
+.jumbotron .container h1{
+	font-size:80px;
+	padding-top:50px;
+}
+
+.headers{
+text-align:center;
+}
+#shopping{
+	background-color:#F5F5F5;
+	color:black;
+	padding-top:20px;
+}
+#shopping p{
+	color:black;
+}
+.rounded {
+	height:150px;
+	width:150px;
+	border-radius: 50%;
+	transition: all 0.5s ease-out;
+}
+#who{
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	background-color:#FEB200;
+}
+.square{
+	padding-top:10px;
+}
+#counter{
+	background-color:#F5F5F5;
+	padding-top:60px;
+}
+footer{
+	background-color:#FEB200;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.btn{
+	transition:all 0.5s;
+}
+.btn:hover{
+	background-color:#115EF8;
+	color:black;
+}
+
+/* RWD */
+@media (max-width: 1199px) {
+	.jumbotron h1{
+		font-size:56px;
+		margin-bottom:30px;
+	}
+	.btn{
+		font-size:16px;
+	}
+}
+
+@media (max-width: 991px){
+	.jumbotron {
+		height:600px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

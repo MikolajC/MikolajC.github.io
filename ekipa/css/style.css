@@ -1,0 +1,122 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:#97a0af;
+	
+}
+#navbar a:hover{
+	color:#f16000;
+}
+.orange , .square{
+	color:#f16000;
+}
+.dark{
+	color:#2f3e47;
+}
+.grey{
+	color:#ededed;
+}
+h4{
+	color:#D8D8D8;
+}
+.add{
+	font-size:18px;
+}
+#mainpage{
+	background-color:#ededed;
+	height:560px;
+	padding-top:40px;
+}
+.navbar{
+	background-color:#ededed;
+	border:none;
+}
+#mainpage > .container{
+padding-top:200px;
+text-align: center;
+}
+#ikony{
+	text-align: center;
+	background-color:#2f3e47;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+#ikony > h2 {
+	padding-top:10px;
+}
+#join{
+	text-align: center;
+	background-color:#ededed;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.row img{
+	max-width:140px;
+	max-height: 140px;
+}
+#fq{
+	text-align: center;
+	background-color:#2f3e47;
+	padding-top:40px;
+	padding-bottom:70px;
+}
+#fq > .container > .row{
+	text-align: left;
+}
+#socials{
+	text-align:left;
+	padding-top: 40px;
+}
+.border{
+	width:60px;
+	height: 6px;
+	border-bottom: 4px solid #f16000;
+	margin:10px auto;
+}
+#socials ul{
+	padding-left: 0;
+}
+.unlisted{
+	list-style: none;
+	transition:color 0.6s;
+}
+.unlisted a{
+	text-decoration: none;
+	color:#777;
+}
+.unlisted a:hover{
+	color:#f16000;
+}
+
+}
+.black{
+	color:#fff; 
+}
+#underphoto{
+	padding-top: 20px;
+}
+
+/*Fonts-awesome*/
+.fa-heart{
+	color:#C73B28;
+} 
+.fa-handshake-o{
+	color:#63EFF5;
+}
+.fa-snowflake-o{
+	color:#7F0569;
+}
+.fa-university{
+	color:#4806F1;
+}
+.fa-calendar-o{
+	color:#45A925;
+}
+.fa-gift{
+	color:#EFB909;
+}
+
+
+@media (max-width: 767px) {
+	.col-sm-4{padding-top: 20px;}
+	
+}
